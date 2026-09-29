@@ -1,0 +1,86 @@
+# ============================================================
+# Distributed Rate-Limited API Gateway
+# Event-Driven Order Processing System
+# Final Year Project
+# ============================================================
+# Architecture: FastAPI + Kafka + PostgreSQL + Redis
+# Deploy Target: AWS ECS with Autoscaling
+# Load Testing: Locust + k6
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# --- Test & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.cover
+.hypothesis/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Load Test Results ---
+loadtest/results/*.json
+loadtest/results/*.csv
+loadtest/results/*.html
+
+# --- Terraform ---
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+
+# --- Docker ---
+.docker/
+
+# --- Build artifacts ---
+worker/dist/
+gateway/dist/
